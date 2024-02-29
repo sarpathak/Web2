@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: grey;
+        }
+        .header-box
+        {
+            background-color:black;
+            padding: 10px;
+            border: 1px solid #000;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 6vw;
+        }
+        .header-text 
+        {
+            font-size: 5vw;
+            font-weight: bold;
+            text-align: center;
+            color: greenyellow;
+        }
+        .search-container{
+            display: flex;
+            padding: 10px;
+            justify-content: flex-end;
+            background-color: #333;
+        }
+        .search-box{
+            width: 200px;
+            padding: 5px;
+            border: #333;
+            border-radius: 10px;
+        }
+        .search-butoon
+        {
+            width: 50px;
+            padding: 5px 10px;
+            background-color: #555;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .boxes {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+        .box {
+            text-align: center;
+            padding: 20px;
+            color: bisque;
+            margin: 10px;
+            background-color: #000;
+            width: calc(50%-20px);
+            box-sizing: border-box;
+            display: inline-block;
+            margin-bottom: 50px;
+        }
+        .box img{
+            max-width: 100%;
+            height: 75%;
+        }
+        footer
+        {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            text-align: left;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        footer a{
+            color: white;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <div class="header-box">
+        <span class="header-text">🔧ZAPTIMIZER🛠️</span>
+        </div>
+    </header>
+
+    <div class="search-container">
+        <input type="text" class="search-box" placeholder="Search...">
+        <button class="search-button">Search</button>
+    </div>
+    <div class="boxes">
+        <div class="box">
+            <img src="C:\Users\patha\Downloads\img\moto.jpg" alt="Moto">
+            <p> MOTO</p>
+            <br>
+        </div>
+        
+        <div class="box">
+            <img src="C:\Users\patha\Downloads\img\red10.jpg" alt="Redmi">
+            <p> REDMI</p>
+            <br>
+        </div>
+        <br>
+        <div class="box">
+            <img src="C:\Users\patha\Downloads\img\narzo.jpg" alt="Narzo">
+            <p> NARZO</p>
+        </div>
+        
+        <div class="box">
+            <img src="C:\Users\patha\Downloads\img\poco.jpg" alt="Poco">
+            <p> POCO</p>
+        </div>
+        <br>
+    </div>
+    
+    <footer>
+        <a href="about-us.html">About Us</a>
+        <br>
+        contact:zaptimizer@gmail.com
+        <br>
+        THANK YOU FOR VISITING MY SITE!!
+    </footer>
+</body>
+</html>
